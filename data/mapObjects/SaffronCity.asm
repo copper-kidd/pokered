@@ -1,7 +1,7 @@
 SaffronCity_Object:
 	db $f ; border block
 
-	db 8 ; warps
+	db 16 ; warps
 	warp 7, 5, 0, COPYCATS_HOUSE_1F
 	warp 26, 3, 0, FIGHTING_DOJO
 	warp 34, 3, 0, SAFFRON_GYM
@@ -10,8 +10,16 @@ SaffronCity_Object:
 	warp 18, 21, 0, SILPH_CO_1F
 	warp 9, 29, 0, SAFFRON_POKECENTER
 	warp 29, 29, 0, MR_PSYCHICS_HOUSE
+	warp  0,  1, 0, WARP_ROOM ; dummy warp
+	warp  1,  1, 0, WARP_ROOM ; dummy warp
+	warp  2,  1, 0, WARP_ROOM ; dummy warp
+	warp  3,  1, 0, WARP_ROOM ; dummy warp
+	warp  4,  1, 0, WARP_ROOM ; dummy warp
+	warp  5,  1, 0, WARP_ROOM ; dummy warp
+	warp  6,  1, 0, WARP_ROOM ; dummy warp	
+	warp 39,  1, 6, WARP_ROOM ; Warps to Saffron City warp plate in Warp Room
 
-	db 10 ; signs
+	db 11 ; signs
 	sign 17, 5, 16 ; SaffronCityText16
 	sign 27, 5, 17 ; SaffronCityText17
 	sign 35, 5, 18 ; SaffronCityText18
@@ -22,6 +30,7 @@ SaffronCity_Object:
 	sign 10, 29, 23 ; PokeCenterSignText
 	sign 27, 29, 24 ; SaffronCityText24
 	sign 1, 19, 25 ; SaffronCityText25
+	sign 39,  3, 26 ; SaffronCityText26
 
 	db 15 ; objects
 	object SPRITE_ROCKET, 7, 6, STAY, NONE, 1 ; person
@@ -49,3 +58,11 @@ SaffronCity_Object:
 	warp_to 18, 21, SAFFRON_CITY_WIDTH ; SILPH_CO_1F
 	warp_to 9, 29, SAFFRON_CITY_WIDTH ; SAFFRON_POKECENTER
 	warp_to 29, 29, SAFFRON_CITY_WIDTH ; MR_PSYCHICS_HOUSE
+	warp_to  0,  1, SAFFRON_CITY_WIDTH ; dummy warp
+	warp_to  1,  1, SAFFRON_CITY_WIDTH ; dummy warp
+	warp_to  2,  1, SAFFRON_CITY_WIDTH ; dummy warp
+	warp_to  3,  1, SAFFRON_CITY_WIDTH ; dummy warp
+	warp_to  4,  1, SAFFRON_CITY_WIDTH ; dummy warp
+	warp_to  5,  1, SAFFRON_CITY_WIDTH ; dummy warp
+	warp_to  6,  1, SAFFRON_CITY_WIDTH ; dummy warp	
+	warp_to 39,  1, SAFFRON_CITY_WIDTH ; WARP_ROOM

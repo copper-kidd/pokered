@@ -150,3 +150,8 @@ _CeladonCityText18::
 	line "The playground"
 	cont "for grown-ups!"
 	done
+
+_CeladonCityText19::
+	text "COPPER'S"
+	line "Warp House"
+	done

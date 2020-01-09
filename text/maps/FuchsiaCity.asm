@@ -117,3 +117,8 @@ _FuchsiaCityKabutoText::
 _FuchsiaCityText_19b2a::
 	text "..."
 	done
+	
+_FuchsiaCityText25::
+	text "COPPER'S"
+	line "Warp House"
+	done

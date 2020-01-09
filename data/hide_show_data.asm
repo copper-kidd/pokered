@@ -273,6 +273,7 @@ MapHSXX:
 	db $FF,$FF,$FF
 MapHS00:
 	db PALLET_TOWN,$01,Hide
+	db PALLET_TOWN,$04,Show	
 MapHS01:
 	db VIRIDIAN_CITY,$05,Show
 	db VIRIDIAN_CITY,$07,Hide

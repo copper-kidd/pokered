@@ -1,7 +1,7 @@
 CeladonCity_Object:
 	db $f ; border block
 
-	db 13 ; warps
+	db 16 ; warps
 	warp 8, 13, 0, CELADON_MART_1F
 	warp 10, 13, 2, CELADON_MART_1F
 	warp 24, 9, 0, CELADON_MANSION_1F
@@ -15,8 +15,11 @@ CeladonCity_Object:
 	warp 31, 27, 0, CELADON_DINER
 	warp 35, 27, 0, CELADON_CHIEF_HOUSE
 	warp 43, 27, 0, CELADON_HOTEL
-
-	db 9 ; signs
+	warp  0,  0, 0, WARP_ROOM ; dummy warp
+	warp  1,  0, 0, WARP_ROOM ; dummy warp
+	warp 49,  1, 7, WARP_ROOM ; Warps to Celadon City warp plate in Warp Room
+	
+	db 10 ; signs
 	sign 27, 15, 10 ; CeladonCityText10
 	sign 19, 15, 11 ; CeladonCityText11
 	sign 42, 9, 12 ; PokeCenterSignText
@@ -26,6 +29,7 @@ CeladonCity_Object:
 	sign 39, 21, 16 ; CeladonCityText16
 	sign 33, 21, 17 ; CeladonCityText17
 	sign 27, 21, 18 ; CeladonCityText18
+	sign 49,  3, 19 ; CeladonCityText19	
 
 	db 9 ; objects
 	object SPRITE_LITTLE_GIRL, 8, 17, WALK, 0, 1 ; person
@@ -52,3 +56,6 @@ CeladonCity_Object:
 	warp_to 31, 27, CELADON_CITY_WIDTH ; CELADON_DINER
 	warp_to 35, 27, CELADON_CITY_WIDTH ; CELADON_CHIEF_HOUSE
 	warp_to 43, 27, CELADON_CITY_WIDTH ; CELADON_HOTEL
+	warp_to  0,  0, CELADON_CITY_WIDTH ; dummy warp	
+	warp_to  1,  0, CELADON_CITY_WIDTH ; dummy warp		
+	warp_to 49,  1, CELADON_CITY_WIDTH ; WARP_ROOM

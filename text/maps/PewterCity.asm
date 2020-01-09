@@ -115,3 +115,8 @@ _PewterCityText12::
 	line "A Stone Gray"
 	cont "City"
 	done
+	
+_PewterCityText15::
+	text "COPPER'S"
+	line "Warp House"
+	done

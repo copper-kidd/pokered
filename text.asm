@@ -2340,7 +2340,7 @@ INCLUDE "text/maps/ViridianGym.asm"
 INCLUDE "text/maps/Museum1F.asm"
 INCLUDE "text/maps/Museum2F.asm"
 INCLUDE "text/maps/PewterGym.asm"
-
+INCLUDE "text/maps/WarpRoom.asm"
 
 SECTION "Text 7", ROMX ; BANK $26
 
@@ -2420,6 +2420,7 @@ INCLUDE "text/maps/CinnabarLabFossilRoom.asm"
 INCLUDE "text/maps/CinnabarPokecenter.asm"
 INCLUDE "text/maps/CinnabarMart.asm"
 INCLUDE "text/maps/IndigoPlateauLobby.asm"
+INCLUDE "text/maps/IndigoPlateau.asm"
 INCLUDE "text/maps/CopycatsHouse1F.asm"
 INCLUDE "text/maps/CopycatsHouse2F.asm"
 INCLUDE "text/maps/FightingDojo.asm"

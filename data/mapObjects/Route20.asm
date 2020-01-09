@@ -1,13 +1,28 @@
 Route20_Object:
 	db $43 ; border block
 
-	db 2 ; warps
+	db 16 ; warps
 	warp 48, 5, 0, SEAFOAM_ISLANDS_1F
 	warp 58, 9, 2, SEAFOAM_ISLANDS_1F
-
-	db 2 ; signs
+	warp  0,  1, 0, WARP_ROOM ; dummy warp
+	warp  1,  1, 0, WARP_ROOM ; dummy warp
+	warp  2,  1, 0, WARP_ROOM ; dummy warp
+	warp  3,  1, 0, WARP_ROOM ; dummy warp
+	warp  4,  1, 0, WARP_ROOM ; dummy warp
+	warp  5,  1, 0, WARP_ROOM ; dummy warp	
+	warp  6,  1, 0, WARP_ROOM ; dummy warp
+	warp  7,  1, 0, WARP_ROOM ; dummy warp
+	warp  8,  1, 0, WARP_ROOM ; dummy warp
+	warp  9,  1, 0, WARP_ROOM ; dummy warp
+	warp 10,  1, 0, WARP_ROOM ; dummy warp
+	warp 11,  1, 0, WARP_ROOM ; dummy warp	
+	warp 12,  1, 0, WARP_ROOM ; dummy warp
+	warp 61,  3, 11, WARP_ROOM ; Warps to Seaform Islands warp plate in Warp Room
+	
+	db 3 ; signs
 	sign 51, 7, 11 ; Route20Text11
 	sign 57, 11, 12 ; Route20Text12
+	sign 61,  5, 13 ; Route20Text13
 
 	db 10 ; objects
 	object SPRITE_SWIMMER, 87, 8, STAY, UP, 1, OPP_SWIMMER, 9
@@ -24,3 +39,17 @@ Route20_Object:
 	; warp-to
 	warp_to 48, 5, ROUTE_20_WIDTH ; SEAFOAM_ISLANDS_1F
 	warp_to 58, 9, ROUTE_20_WIDTH ; SEAFOAM_ISLANDS_1F
+	warp_to  0,  1, ROUTE_20_WIDTH ; dummy warp
+	warp_to  1,  1, ROUTE_20_WIDTH ; dummy warp
+	warp_to  2,  1, ROUTE_20_WIDTH ; dummy warp
+	warp_to  3,  1, ROUTE_20_WIDTH ; dummy warp
+	warp_to  4,  1, ROUTE_20_WIDTH ; dummy warp
+	warp_to  5,  1, ROUTE_20_WIDTH ; dummy warp
+	warp_to  6,  1, ROUTE_20_WIDTH ; dummy warp
+	warp_to  7,  1, ROUTE_20_WIDTH ; dummy warp
+	warp_to  8,  1, ROUTE_20_WIDTH ; dummy warp
+	warp_to  9,  1, ROUTE_20_WIDTH ; dummy warp
+	warp_to 10,  1, ROUTE_20_WIDTH ; dummy warp
+	warp_to 11,  1, ROUTE_20_WIDTH ; dummy warp
+	warp_to 12,  1, ROUTE_20_WIDTH ; dummy warp	
+	warp_to 61,  3, ROUTE_20_WIDTH ; WARP_ROOM

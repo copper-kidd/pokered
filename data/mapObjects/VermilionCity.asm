@@ -1,7 +1,7 @@
 VermilionCity_Object:
 	db $43 ; border block
 
-	db 9 ; warps
+	db 16 ; warps
 	warp 11, 3, 0, VERMILION_POKECENTER
 	warp 9, 13, 0, POKEMON_FAN_CLUB
 	warp 23, 13, 0, VERMILION_MART
@@ -11,8 +11,15 @@ VermilionCity_Object:
 	warp 19, 31, 0, VERMILION_DOCK
 	warp 15, 13, 0, VERMILION_TRADE_HOUSE
 	warp 7, 3, 0, VERMILION_OLD_ROD_HOUSE
-
-	db 7 ; signs
+	warp  6,  0, 0, WARP_ROOM ; dummy warp
+	warp  7,  0, 0, WARP_ROOM ; dummy warp
+	warp  8,  0, 0, WARP_ROOM ; dummy warp
+	warp  9,  0, 0, WARP_ROOM ; dummy warp
+	warp 10,  0, 0, WARP_ROOM ; dummy warp
+	warp 11,  0, 0, WARP_ROOM ; dummy warp	
+	warp 33,  1, 9, WARP_ROOM ; Warps to Vermilion City warp plate in Warp Room
+	
+	db 8 ; signs
 	sign 27, 3, 7 ; VermilionCityText7
 	sign 37, 13, 8 ; VermilionCityText8
 	sign 24, 13, 9 ; MartSignText
@@ -20,6 +27,7 @@ VermilionCity_Object:
 	sign 7, 13, 11 ; VermilionCityText11
 	sign 7, 19, 12 ; VermilionCityText12
 	sign 29, 15, 13 ; VermilionCityText13
+	sign 33,  3, 15 ; VermilionCityText15
 
 	db 6 ; objects
 	object SPRITE_FOULARD_WOMAN, 19, 7, WALK, 2, 1 ; person
@@ -39,3 +47,10 @@ VermilionCity_Object:
 	warp_to 19, 31, VERMILION_CITY_WIDTH ; VERMILION_DOCK
 	warp_to 15, 13, VERMILION_CITY_WIDTH ; VERMILION_TRADE_HOUSE
 	warp_to 7, 3, VERMILION_CITY_WIDTH ; VERMILION_OLD_ROD_HOUSE
+	warp_to  6,  0, LAVENDER_TOWN_WIDTH ; dummy warp
+	warp_to  7,  0, LAVENDER_TOWN_WIDTH ; dummy warp
+	warp_to  8,  0, LAVENDER_TOWN_WIDTH ; dummy warp
+	warp_to  9,  0, LAVENDER_TOWN_WIDTH ; dummy warp
+	warp_to 10,  0, LAVENDER_TOWN_WIDTH ; dummy warp
+	warp_to 11,  0, LAVENDER_TOWN_WIDTH ; dummy warp	
+	warp_to 33,  1, VERMILION_CITY_WIDTH ; WARP_ROOM

@@ -381,7 +381,8 @@ Route22_TextPointers:
 	dw Route22Text1
 	dw Route22Text2
 	dw Route22FrontGateText
-
+	dw Route22Text3
+	
 Route22Text1:
 	TX_ASM
 	CheckEvent EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE
@@ -442,4 +443,8 @@ Route22Text_511d0:
 
 Route22FrontGateText:
 	TX_FAR _Route22FrontGateText
+	db "@"
+
+Route22Text3:
+	TX_FAR _Route22Text3
 	db "@"

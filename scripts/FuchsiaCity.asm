@@ -26,6 +26,7 @@ FuchsiaCity_TextPointers:
 	dw FuchsiaCityText22
 	dw FuchsiaCityText23
 	dw FuchsiaCityText24
+	dw FuchsiaCityText25	
 
 FuchsiaCityText1:
 	TX_FAR _FuchsiaCityText1
@@ -156,6 +157,10 @@ FuchsiaCityText24:
 .asm_4343f
 	jp TextScriptEnd
 
+FuchsiaCityText25:
+	TX_FAR _FuchsiaCityText25
+	db "@"
+	
 FuchsiaCityOmanyteText:
 	TX_FAR _FuchsiaCityOmanyteText
 	db "@"

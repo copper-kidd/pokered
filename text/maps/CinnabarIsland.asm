@@ -35,3 +35,8 @@ _CinnabarIslandText7::
 	para "The Hot-Headed"
 	line "Quiz Master!"
 	done
+	
+_CinnabarIslandText9::
+	text "COPPER'S"
+	line "Warp House"
+	done

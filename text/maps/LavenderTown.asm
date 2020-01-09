@@ -62,3 +62,8 @@ _LavenderTownText9::
 	line "#MON Rest Easy"
 	cont "#MON TOWER"
 	done
+
+_LavenderTownText10::
+	text "COPPER'S"
+	line "Warp House"
+	done

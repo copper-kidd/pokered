@@ -1,7 +1,7 @@
 CeruleanCity_Object:
 	db $f ; border block
 
-	db 10 ; warps
+	db 16 ; warps
 	warp 27, 11, 0, CERULEAN_TRASHED_HOUSE
 	warp 13, 15, 0, CERULEAN_TRADE_HOUSE
 	warp 19, 17, 0, CERULEAN_POKECENTER
@@ -12,14 +12,21 @@ CeruleanCity_Object:
 	warp 27, 9, 2, CERULEAN_TRASHED_HOUSE
 	warp 9, 11, 1, CERULEAN_BADGE_HOUSE
 	warp 9, 9, 0, CERULEAN_BADGE_HOUSE
-
-	db 6 ; signs
+	warp 0,  0, 0, WARP_ROOM ; dummy warp
+	warp 1,  0, 0, WARP_ROOM ; dummy warp
+	warp 2,  0, 0, WARP_ROOM ; dummy warp
+	warp 3,  0, 0, WARP_ROOM ; dummy warp
+	warp 4,  0, 0, WARP_ROOM ; dummy warp
+	warp  3, 29, 5, WARP_ROOM ; Warps to Cerulean City warp plate in Warp Room
+	
+	db 7 ; signs
 	sign 23, 19, 12 ; CeruleanCityText12
 	sign 17, 29, 13 ; CeruleanCityText13
 	sign 26, 25, 14 ; MartSignText
 	sign 20, 17, 15 ; PokeCenterSignText
 	sign 11, 25, 16 ; CeruleanCityText16
 	sign 27, 21, 17 ; CeruleanCityText17
+	sign  3, 31, 18 ; CeruleanCityText18	
 
 	db 11 ; objects
 	object SPRITE_BLUE, 20, 2, STAY, DOWN, 1 ; person
@@ -45,3 +52,9 @@ CeruleanCity_Object:
 	warp_to 27, 9, CERULEAN_CITY_WIDTH ; CERULEAN_TRASHED_HOUSE
 	warp_to 9, 11, CERULEAN_CITY_WIDTH ; CERULEAN_BADGE_HOUSE
 	warp_to 9, 9, CERULEAN_CITY_WIDTH ; CERULEAN_BADGE_HOUSE
+	warp_to 0,  0, CERULEAN_CITY_WIDTH ; dummy warp
+	warp_to 1,  0, CERULEAN_CITY_WIDTH ; dummy warp
+	warp_to 2,  0, CERULEAN_CITY_WIDTH ; dummy warp
+	warp_to 3,  0, CERULEAN_CITY_WIDTH ; dummy warp
+	warp_to 4,  0, CERULEAN_CITY_WIDTH ; dummy warp	
+	warp_to  3, 29, CERULEAN_CITY_WIDTH ; WARP_ROOM
