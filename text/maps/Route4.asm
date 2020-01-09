@@ -33,3 +33,8 @@ _Route4Text6::
 	line "MT.MOON -"
 	cont "CERULEAN CITY"
 	done
+
+_Route4Text7::
+	text "COPPER'S"
+	line "Warp House"
+	done

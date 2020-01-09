@@ -1,11 +1,27 @@
 Route25_Object:
 	db $2c ; border block
 
-	db 1 ; warps
+	db 16 ; warps
 	warp 45, 3, 0, BILLS_HOUSE
+	warp  0,  0, 0, WARP_ROOM ; dummy warp 1
+	warp  1,  0, 0, WARP_ROOM ; dummy warp 2
+	warp  2,  0, 0, WARP_ROOM ; dummy warp 3
+	warp  3,  0, 0, WARP_ROOM ; dummy warp 4
+	warp  4,  0, 0, WARP_ROOM ; dummy warp 5
+	warp  5,  0, 0, WARP_ROOM ; dummy warp 6
+	warp  6,  0, 0, WARP_ROOM ; dummy warp 7
+	warp  7,  0, 0, WARP_ROOM ; dummy warp 8
+	warp  8,  0, 0, WARP_ROOM ; dummy warp 9
+	warp  9,  0, 0, WARP_ROOM ; dummy warp 10
+	warp 10,  0, 0, WARP_ROOM ; dummy warp 11
+	warp 11,  0, 0, WARP_ROOM ; dummy warp 12
+	warp 12,  0, 0, WARP_ROOM ; dummy warp 13
+	warp 13,  0, 0, WARP_ROOM ; dummy warp 14
+	warp 37,  9, 16, WARP_ROOM ; Warps to Bill's House warp plate in Warp Room	
 
-	db 1 ; signs
+	db 2 ; signs
 	sign 43, 3, 11 ; Route25Text11
+	sign 37, 11, 12 ; Route25Text12	
 
 	db 10 ; objects
 	object SPRITE_BUG_CATCHER, 14, 2, STAY, DOWN, 1, OPP_YOUNGSTER, 5
@@ -21,3 +37,19 @@ Route25_Object:
 
 	; warp-to
 	warp_to 45, 3, ROUTE_25_WIDTH ; BILLS_HOUSE
+	warp_to  0,  0, ROUTE_25_WIDTH ; dummy warp 1
+	warp_to  1,  0, ROUTE_25_WIDTH ; dummy warp 2
+	warp_to  2,  0, ROUTE_25_WIDTH ; dummy warp 3
+	warp_to  3,  0, ROUTE_25_WIDTH ; dummy warp 4
+	warp_to  4,  0, ROUTE_25_WIDTH ; dummy warp 5
+	warp_to  5,  0, ROUTE_25_WIDTH ; dummy warp 6
+	warp_to  6,  0, ROUTE_25_WIDTH ; dummy warp 7
+	warp_to  7,  0, ROUTE_25_WIDTH ; dummy warp 8
+	warp_to  8,  0, ROUTE_25_WIDTH ; dummy warp 9
+	warp_to  9,  0, ROUTE_25_WIDTH ; dummy warp 10
+	warp_to 10,  0, ROUTE_25_WIDTH ; dummy warp 11
+	warp_to 11,  0, ROUTE_25_WIDTH ; dummy warp 12
+	warp_to 12,  0, ROUTE_25_WIDTH ; dummy warp 13
+	warp_to 13,  0, ROUTE_25_WIDTH ; dummy warp	14
+	warp_to 37,  9, ROUTE_25_WIDTH ; WARP_ROOM
+	

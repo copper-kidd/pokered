@@ -49,3 +49,15 @@ _WarpRoomText12::
 _WarpRoomText13::
 	text "Pallet Town"
 	done
+	
+_WarpRoomText14::
+	text "Mt. Moon"
+	done
+	
+_WarpRoomText15::
+	text "Bill's House"
+	done
+	
+_WarpRoomText16::
+	text "Power Plant"
+	done

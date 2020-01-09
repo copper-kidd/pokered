@@ -23,6 +23,7 @@ Route10_TextPointers:
 	dw PokeCenterSignText
 	dw Route10Text9
 	dw Route10Text10
+	dw Route10Text11	
 
 Route10TrainerHeader0:
 	dbEventFlagBit EVENT_BEAT_ROUTE_10_TRAINER_0
@@ -195,4 +196,8 @@ Route10Text7:
 
 Route10Text10:
 	TX_FAR _Route10Text10
+	db "@"
+	
+Route10Text11:
+	TX_FAR _Route10Text11
 	db "@"
