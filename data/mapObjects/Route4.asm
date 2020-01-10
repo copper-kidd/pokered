@@ -17,7 +17,7 @@ Route4_Object:
 	warp  9,  0, 0, WARP_ROOM ; dummy warp
 	warp 10,  0, 0, WARP_ROOM ; dummy warp
 	warp 11,  0, 0, WARP_ROOM ; dummy warp
-	warp 19, 11, 15, WARP_ROOM ; Warps to Mt. Moon warp plate in Warp Room
+	warp 19, 11, 13, WARP_ROOM ; Warps to Mt. Moon warp plate in Warp Room
 	
 
 	db 4 ; signs

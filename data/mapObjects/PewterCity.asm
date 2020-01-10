@@ -17,7 +17,7 @@ PewterCity_Object:
 	warp  9,  1, 0, WARP_ROOM ; dummy warp
 	warp 10,  1, 0, WARP_ROOM ; dummy warp
 	warp 11,  1, 0, WARP_ROOM ; dummy warp
-	warp 35,  3, 4, WARP_ROOM ; Warps to Pewter City warp plate in Warp Room
+	warp 35,  3, 2, WARP_ROOM ; Warps to Pewter City warp plate in Warp Room
 
 	db 8 ; signs
 	sign 19, 29, 6 ; PewterCityText6

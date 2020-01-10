@@ -17,7 +17,7 @@ Route22_Object:
 	warp  11,  0, 0, WARP_ROOM ; dummy warp
 	warp  12,  0, 0, WARP_ROOM ; dummy warp
 	warp  13,  0, 0, WARP_ROOM ; dummy warp
-	warp  3, 11, 13, WARP_ROOM ; Warps to Victory Road warp plate in Warp Room
+	warp  3, 11, 11, WARP_ROOM ; Warps to Victory Road warp plate in Warp Room
 
 	db 2 ; signs
 	sign  9, 11, 3 ; Route22FrontGateText

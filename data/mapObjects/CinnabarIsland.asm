@@ -17,7 +17,7 @@ CinnabarIsland_Object:
 	warp 16,  0, 0, WARP_ROOM ; dummy warp
 	warp 17,  0, 0, WARP_ROOM ; dummy warp
 	warp 18,  0, 0, WARP_ROOM ; dummy warp	
-	warp 13,  1, 12, WARP_ROOM ; Warps to Cinnabar Island warp plate in Warp Room
+	warp 13,  1, 10, WARP_ROOM ; Warps to Cinnabar Island warp plate in Warp Room
 	
 	db 6 ; signs
 	sign 9, 5, 3 ; CinnabarIslandText3

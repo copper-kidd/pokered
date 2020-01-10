@@ -17,7 +17,7 @@ VermilionCity_Object:
 	warp  9,  0, 0, WARP_ROOM ; dummy warp
 	warp 10,  0, 0, WARP_ROOM ; dummy warp
 	warp 11,  0, 0, WARP_ROOM ; dummy warp	
-	warp 33,  1, 9, WARP_ROOM ; Warps to Vermilion City warp plate in Warp Room
+	warp 33,  1, 7, WARP_ROOM ; Warps to Vermilion City warp plate in Warp Room
 	
 	db 8 ; signs
 	sign 27, 3, 7 ; VermilionCityText7

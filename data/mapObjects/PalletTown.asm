@@ -17,7 +17,7 @@ PalletTown_Object:
 	warp  9,  1, 0, WARP_ROOM ; dummy warp
 	warp 12,  1, 0, WARP_ROOM ; dummy warp
 	warp 13,  1, 0, WARP_ROOM ; dummy warp
-	warp  3, 15, 2, WARP_ROOM ; Warps to Pallet Town warp plate in Warp Room
+	warp  3, 15, 0, WARP_ROOM ; Warps to Pallet Town warp plate in Warp Room
 
 	db 5 ; signs
 	sign 13, 13, 5 ; PalletTownText5

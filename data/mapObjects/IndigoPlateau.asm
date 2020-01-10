@@ -17,7 +17,7 @@ IndigoPlateau_Object:
 	warp  10,  0, 0, WARP_ROOM ; dummy warp
 	warp  11,  0, 0, WARP_ROOM ; dummy warp
 	warp  12,  0, 0, WARP_ROOM ; dummy warp
-	warp 17,  3, 14, WARP_ROOM ; Warps to Indigo Plateau warp plate in Warp Room
+	warp 17,  3, 12, WARP_ROOM ; Warps to Indigo Plateau warp plate in Warp Room
 
 	db 1 ; signs
 	sign 17,  5, 1 ; IndigoPlateauText1

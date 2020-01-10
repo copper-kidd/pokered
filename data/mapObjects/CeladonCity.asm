@@ -17,7 +17,7 @@ CeladonCity_Object:
 	warp 43, 27, 0, CELADON_HOTEL
 	warp  0,  0, 0, WARP_ROOM ; dummy warp
 	warp  1,  0, 0, WARP_ROOM ; dummy warp
-	warp 49,  1, 7, WARP_ROOM ; Warps to Celadon City warp plate in Warp Room
+	warp 49,  1, 5, WARP_ROOM ; Warps to Celadon City warp plate in Warp Room
 	
 	db 10 ; signs
 	sign 27, 15, 10 ; CeladonCityText10

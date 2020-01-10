@@ -17,7 +17,7 @@ ViridianCity_Object:
 	warp 7,  0, 0, WARP_ROOM ; dummy warp
 	warp 8,  0, 0, WARP_ROOM ; dummy warp
 	warp 9,  0, 0, WARP_ROOM ; dummy warp
-	warp 35, 11, 3, WARP_ROOM ; Warps to Viridian City warp plate in Warp Room
+	warp 35, 11, 1, WARP_ROOM ; Warps to Viridian City warp plate in Warp Room
 
 	db 7 ; signs
 	sign 17, 17, 8 ; ViridianCityText8

@@ -17,7 +17,7 @@ LavenderTown_Object:
 	warp 10, 0, 0, WARP_ROOM ; dummy warp
 	warp 11, 0, 0, WARP_ROOM ; dummy warp
 	warp 12, 0, 0, WARP_ROOM ; dummy warp	
-	warp 17, 7, 8, WARP_ROOM ; Warps to Lavender Town warp plate in Warp Room
+	warp 17, 7, 6, WARP_ROOM ; Warps to Lavender Town warp plate in Warp Room
 	
 	db 7 ; signs
 	sign  9,  3, 4 ; LavenderTownText4

@@ -17,7 +17,7 @@ CeruleanCity_Object:
 	warp 2,  0, 0, WARP_ROOM ; dummy warp
 	warp 3,  0, 0, WARP_ROOM ; dummy warp
 	warp 4,  0, 0, WARP_ROOM ; dummy warp
-	warp  3, 29, 5, WARP_ROOM ; Warps to Cerulean City warp plate in Warp Room
+	warp  3, 29, 3, WARP_ROOM ; Warps to Cerulean City warp plate in Warp Room
 	
 	db 7 ; signs
 	sign 23, 19, 12 ; CeruleanCityText12

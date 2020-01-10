@@ -17,7 +17,7 @@ FuchsiaCity_Object:
 	warp  3,  0, 0, WARP_ROOM ; dummy warp
 	warp  4,  0, 0, WARP_ROOM ; dummy warp
 	warp  5,  0, 0, WARP_ROOM ; dummy warp
-	warp 37,  3, 10, WARP_ROOM ; Warps to Fuchsia City warp plate in Warp Room
+	warp 37,  3, 8, WARP_ROOM ; Warps to Fuchsia City warp plate in Warp Room
 
 	db 15 ; signs
 	sign 15, 23, 11 ; FuchsiaCityText11

@@ -17,7 +17,7 @@ Route20_Object:
 	warp 10,  1, 0, WARP_ROOM ; dummy warp
 	warp 11,  1, 0, WARP_ROOM ; dummy warp	
 	warp 12,  1, 0, WARP_ROOM ; dummy warp
-	warp 61,  3, 11, WARP_ROOM ; Warps to Seaform Islands warp plate in Warp Room
+	warp 61,  3, 9, WARP_ROOM ; Warps to Seaform Islands warp plate in Warp Room
 	
 	db 3 ; signs
 	sign 51, 7, 11 ; Route20Text11

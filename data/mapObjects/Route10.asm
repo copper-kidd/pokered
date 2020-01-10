@@ -17,7 +17,7 @@ Route10_Object:
 	warp  8,  0, 0, WARP_ROOM ; dummy warp
 	warp  9,  0, 0, WARP_ROOM ; dummy warp
 	warp 10,  0, 0, WARP_ROOM ; dummy warp
-	warp 15, 43, 17, WARP_ROOM ; Warps to Power Plant warp plate in Warp Room
+	warp 15, 43, 15, WARP_ROOM ; Warps to Power Plant warp plate in Warp Room
 	
 
 	db 5 ; signs

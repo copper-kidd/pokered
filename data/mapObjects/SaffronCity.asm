@@ -17,7 +17,7 @@ SaffronCity_Object:
 	warp  4,  1, 0, WARP_ROOM ; dummy warp
 	warp  5,  1, 0, WARP_ROOM ; dummy warp
 	warp  6,  1, 0, WARP_ROOM ; dummy warp	
-	warp 39,  1, 6, WARP_ROOM ; Warps to Saffron City warp plate in Warp Room
+	warp 39,  1, 4, WARP_ROOM ; Warps to Saffron City warp plate in Warp Room
 
 	db 11 ; signs
 	sign 17, 5, 16 ; SaffronCityText16

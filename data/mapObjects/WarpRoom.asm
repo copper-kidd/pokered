@@ -1,9 +1,7 @@
 WarpRoom_Object:
 	db $0d ; border block
 
-	db 18 ; warps
-	warp  4, 35, 15, -1 ; Left entrance
-	warp  5, 35, 15, -1 ; Right entrance
+	db 16 ; warps
 	warp  1, 32, 15, PALLET_TOWN ; Pallet Town Warp Room
 	warp  9, 32, 15, VIRIDIAN_CITY ; Viridian City Warp Room
 	warp  1, 28, 15, PEWTER_CITY ; Pewter City Warp Room
@@ -42,8 +40,6 @@ WarpRoom_Object:
 	db 0 ; objects
 	
 	; warp-to_
-	warp_to  4, 35, WARP_ROOM_WIDTH ; Left entrance
-	warp_to  5, 35, WARP_ROOM_WIDTH ; Right entrance
 	warp_to  1, 32, WARP_ROOM_WIDTH ; PALLET_TOWN
 	warp_to  9, 32, WARP_ROOM_WIDTH ; VIRIDIAN_CITY
 	warp_to  1, 28, WARP_ROOM_WIDTH ; PEWTER_CITY
