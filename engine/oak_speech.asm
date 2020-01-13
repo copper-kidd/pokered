@@ -47,7 +47,19 @@ OakSpeech:
 	ld [wcf91], a
 	ld a, 1
 	ld [wItemQuantity], a
-	call AddItemToInventory  ; give one potion
+	call AddItemToInventory  ; give one potion (PC)
+	ld hl, wNumBoxItems
+    ld a, NUGGET
+    ld [wcf91], a
+    ld a, 1
+    ld [wItemQuantity], a
+    call AddItemToInventory ; give one Nugget (PC)
+	ld hl, wNumBagItems
+    ld a, MASTER_BALL
+    ld [wcf91], a
+    ld a, 1
+    ld [wItemQuantity], a
+    call AddItemToInventory ; give one Master Ball (Inventory)
 	ld a, [wDefaultMap]
 	ld [wDestinationMap], a
 	call SpecialWarpIn
