@@ -124,8 +124,3 @@ _VermilionCityText12::
 _VermilionCityText13::
 	text "VERMILION HARBOR"
 	done
-	
-_VermilionCityText15::
-	text "COPPER'S"
-	line "Warp House"
-	done

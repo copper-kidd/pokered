@@ -854,7 +854,7 @@ Route4HiddenObjects:
 	dbw BANK(HiddenItems),HiddenItems
 	db $FF
 WarpRoomHiddenObjects:
-	db $00,$01,$04
+	db $24,$01,$04
 	db BANK(OpenPokemonCenterPC)
 	dw OpenPokemonCenterPC
 	db $FF

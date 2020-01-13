@@ -27,7 +27,6 @@ SaffronCity_TextPointers:
 	dw PokeCenterSignText
 	dw SaffronCityText24
 	dw SaffronCityText25
-	dw SaffronCityText26	
 
 SaffronCityText1:
 	TX_FAR _SaffronCityText1
@@ -120,8 +119,4 @@ SaffronCityText24:
 
 SaffronCityText25:
 	TX_FAR _SaffronCityText25
-	db "@"
-
-SaffronCityText26:
-	TX_FAR _SaffronCityText26
 	db "@"

@@ -102,8 +102,3 @@ _Route22FrontGateText::
 	text "#MON LEAGUE"
 	line "Front Gate"
 	done
-	
-_Route22Text3::
-	text "COPPER'S"
-	line "Warp House"
-	done

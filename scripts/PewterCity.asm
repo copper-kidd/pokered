@@ -191,7 +191,6 @@ PewterCity_TextPointers:
 	dw PewterCityText12
 	dw PewterCityText13
 	dw PewterCityText14
-	dw PewterCityText15	
 
 PewterCityText1:
 	TX_FAR _PewterCityText1
@@ -320,8 +319,4 @@ PewterCityText11:
 
 PewterCityText12:
 	TX_FAR _PewterCityText12
-	db "@"
-
-PewterCityText15:
-	TX_FAR _PewterCityText15
 	db "@"

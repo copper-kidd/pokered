@@ -149,8 +149,3 @@ _SaffronCityText25::
 	para "Release to be"
 	line "determined..."
 	done
-
-_SaffronCityText26::
-	text "COPPER'S"
-	line "Warp House"
-	done

@@ -178,8 +178,3 @@ _ViridianCityText14::
 	text "The GYM's doors"
 	line "are locked..."
 	done
-	
-_ViridianCityText16::
-	text "COPPER'S"
-	line "Warp House"
-	done

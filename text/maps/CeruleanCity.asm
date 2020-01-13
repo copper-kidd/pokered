@@ -231,8 +231,3 @@ _CeruleanCityText17::
 	para "The Tomboyish"
 	line "Mermaid!"
 	done
-	
-_CeruleanCityText18::
-	text "COPPER'S"
-	line "Warp House"
-	done

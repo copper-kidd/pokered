@@ -154,8 +154,3 @@ _Route20Text12::
 _Route20Text11::
 	text "SEAFOAM ISLANDS"
 	done
-
-_Route20Text13::
-	text "COPPER'S"
-	line "Warp House"
-	done

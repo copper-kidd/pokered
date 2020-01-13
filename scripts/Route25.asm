@@ -52,7 +52,6 @@ Route25_TextPointers:
 	dw Route25Text9
 	dw PickUpItemText
 	dw Route25Text11
-	dw Route25Text12
 	
 Route25TrainerHeader0:
 	dbEventFlagBit EVENT_BEAT_ROUTE_25_TRAINER_0
@@ -301,8 +300,4 @@ Route25AfterBattleText9:
 
 Route25Text11:
 	TX_FAR _Route25Text11
-	db "@"
-
-Route25Text12:
-	TX_FAR _Route25Text12
 	db "@"

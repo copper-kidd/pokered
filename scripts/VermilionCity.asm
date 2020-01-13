@@ -127,8 +127,7 @@ VermilionCity_TextPointers:
 	dw VermilionCityText11
 	dw VermilionCityText12
 	dw VermilionCityText13
-	dw VermilionCityText14	
-	dw VermilionCityText15
+	dw VermilionCityText14
 
 VermilionCityText1:
 	TX_FAR _VermilionCityText1
@@ -256,8 +255,4 @@ VermilionCityText12:
 
 VermilionCityText13:
 	TX_FAR _VermilionCityText13
-	db "@"
-
-VermilionCityText15:
-	TX_FAR _VermilionCityText15
 	db "@"

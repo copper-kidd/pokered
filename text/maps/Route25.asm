@@ -154,8 +154,3 @@ _Route25Text11::
 	text "SEA COTTAGE"
 	line "BILL lives here!"
 	done
-
-_Route25Text12::
-	text "COPPER'S"
-	line "Warp House"
-	done

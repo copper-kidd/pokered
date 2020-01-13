@@ -36,7 +36,7 @@ _PalletTownText3::
 	done
 
 _WarpRoomGuardText::
-	text "COPPER: Halt!"
+	text "COPPERKIDD: Halt!"
 	line "You need to have"
 	cont "a #MON first!"
 	done
@@ -58,9 +58,4 @@ _PalletTownText7::
 
 _PalletTownText8::
 	text "<RIVAL>'s house "
-	done
-
-_PalletTownText9::
-	text "COPPER'S"
-	line "Warp House"
 	done

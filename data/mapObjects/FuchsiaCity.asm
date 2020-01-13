@@ -1,25 +1,26 @@
 FuchsiaCity_Object:
 	db $f ; border block
 
-	db 16 ; warps
-	warp 5, 13, 0, FUCHSIA_MART
-	warp 11, 27, 0, FUCHSIA_BILLS_GRANDPAS_HOUSE
-	warp 19, 27, 0, FUCHSIA_POKECENTER
-	warp 27, 27, 0, WARDENS_HOUSE
-	warp 18, 3, 0, SAFARI_ZONE_GATE
-	warp 5, 27, 0, FUCHSIA_GYM
-	warp 22, 13, 0, FUCHSIA_MEETING_ROOM
-	warp 31, 27, 1, FUCHSIA_GOOD_ROD_HOUSE
-	warp 31, 24, 0, FUCHSIA_GOOD_ROD_HOUSE
-	warp  0,  0, 0, WARP_ROOM ; dummy warp
-	warp  1,  0, 0, WARP_ROOM ; dummy warp
-	warp  2,  0, 0, WARP_ROOM ; dummy warp
-	warp  3,  0, 0, WARP_ROOM ; dummy warp
-	warp  4,  0, 0, WARP_ROOM ; dummy warp
-	warp  5,  0, 0, WARP_ROOM ; dummy warp
-	warp 37,  3, 8, WARP_ROOM ; Warps to Fuchsia City warp plate in Warp Room
+	db 17 ; warps
+	warp  5, 13,  0, FUCHSIA_MART
+	warp 11, 27,  0, FUCHSIA_BILLS_GRANDPAS_HOUSE
+	warp 19, 27,  0, FUCHSIA_POKECENTER
+	warp 27, 27,  0, WARDENS_HOUSE
+	warp 18,  3,  0, SAFARI_ZONE_GATE
+	warp  5, 27,  0, FUCHSIA_GYM
+	warp 22, 13,  0, FUCHSIA_MEETING_ROOM
+	warp 31, 27,  1, FUCHSIA_GOOD_ROD_HOUSE
+	warp 31, 24,  0, FUCHSIA_GOOD_ROD_HOUSE
+	warp  0,  0,  0, WARP_ROOM ; dummy warp
+	warp  1,  0,  0, WARP_ROOM ; dummy warp
+	warp  2,  0,  0, WARP_ROOM ; dummy warp
+	warp  3,  0,  0, WARP_ROOM ; dummy warp
+	warp  4,  0,  0, WARP_ROOM ; dummy warp
+	warp  5,  0,  0, WARP_ROOM ; dummy warp
+	warp  6,  0,  0, WARP_ROOM ; dummy warp	
+	warp 17, 17, 10, WARP_ROOM ; Warps to Fuchsia City warp plate in Warp Room
 
-	db 15 ; signs
+	db 14 ; signs
 	sign 15, 23, 11 ; FuchsiaCityText11
 	sign 25, 15, 12 ; FuchsiaCityText12
 	sign 17, 5, 13 ; FuchsiaCityText13
@@ -34,7 +35,6 @@ FuchsiaCity_Object:
 	sign 31, 13, 22 ; FuchsiaCityText22
 	sign 13, 15, 23 ; FuchsiaCityText23
 	sign 7, 7, 24 ; FuchsiaCityText24
-	sign 37,  5, 25 ; FuchsiaCityText25	
 
 	db 10 ; objects
 	object SPRITE_BUG_CATCHER, 10, 12, WALK, 2, 1 ; person
@@ -49,12 +49,12 @@ FuchsiaCity_Object:
 	object SPRITE_OMANYTE, 6, 5, STAY, NONE, 10 ; person
 
 	; warp-to
-	warp_to 5, 13, FUCHSIA_CITY_WIDTH ; FUCHSIA_MART
+	warp_to  5, 13, FUCHSIA_CITY_WIDTH ; FUCHSIA_MART
 	warp_to 11, 27, FUCHSIA_CITY_WIDTH ; FUCHSIA_BILLS_GRANDPAS_HOUSE
 	warp_to 19, 27, FUCHSIA_CITY_WIDTH ; FUCHSIA_POKECENTER
 	warp_to 27, 27, FUCHSIA_CITY_WIDTH ; WARDENS_HOUSE
-	warp_to 18, 3, FUCHSIA_CITY_WIDTH ; SAFARI_ZONE_GATE
-	warp_to 5, 27, FUCHSIA_CITY_WIDTH ; FUCHSIA_GYM
+	warp_to 18,  3, FUCHSIA_CITY_WIDTH ; SAFARI_ZONE_GATE
+	warp_to  5, 27, FUCHSIA_CITY_WIDTH ; FUCHSIA_GYM
 	warp_to 22, 13, FUCHSIA_CITY_WIDTH ; FUCHSIA_MEETING_ROOM
 	warp_to 31, 27, FUCHSIA_CITY_WIDTH ; FUCHSIA_GOOD_ROD_HOUSE
 	warp_to 31, 24, FUCHSIA_CITY_WIDTH ; FUCHSIA_GOOD_ROD_HOUSE
@@ -64,4 +64,5 @@ FuchsiaCity_Object:
 	warp_to  3,  0, FUCHSIA_CITY_WIDTH ; dummy warp
 	warp_to  4,  0, FUCHSIA_CITY_WIDTH ; dummy warp
 	warp_to  5,  0, FUCHSIA_CITY_WIDTH ; dummy warp
-	warp_to 37,  3, FUCHSIA_CITY_WIDTH ; WARP_ROOM
+	warp_to  6,  0, FUCHSIA_CITY_WIDTH ; dummy warp	
+	warp_to 17, 17, FUCHSIA_CITY_WIDTH ; WARP_ROOM

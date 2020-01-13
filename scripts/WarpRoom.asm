@@ -17,7 +17,8 @@ WarpRoom_TextPointers:
 	dw WarpRoomText13	
 	dw WarpRoomText14
 	dw WarpRoomText15
-	dw WarpRoomText16	
+	dw WarpRoomText16
+;	dw WarpRoomText17	
 	
 WarpRoomText1:
 	TX_FAR _WarpRoomText1
@@ -70,6 +71,7 @@ WarpRoomText12:
 WarpRoomText13:
 	TX_FAR _WarpRoomText13
 	db "@"
+	
 WarpRoomText14:
 	TX_FAR _WarpRoomText14
 	db "@"
@@ -81,3 +83,7 @@ WarpRoomText15:
 WarpRoomText16:
 	TX_FAR _WarpRoomText16
 	db "@"	
+
+;WarpRoomText17:
+;	TX_FAR _WarpRoomText17
+;	db "@"
