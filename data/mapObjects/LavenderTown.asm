@@ -17,8 +17,8 @@ LavenderTown_Object:
 	warp 10,  0, 0, WARP_ROOM ; dummy warp
 	warp 11,  0, 0, WARP_ROOM ; dummy warp
 	warp 12,  0, 0, WARP_ROOM ; dummy warp
-	warp 13,  0, 0, WARP_ROOM ; dummy warp	
-	warp  1,  3, 7, WARP_ROOM ; Warps to Lavender Town warp plate in Warp Room
+	warp 13,  0, 0, WARP_ROOM ; dummy warp
+	warp  1,  5, 7, WARP_ROOM ; Warps to Lavender Town warp plate in Warp Room
 	
 	db 6 ; signs
 	sign  9,  3, 4 ; LavenderTownText4
@@ -49,5 +49,5 @@ LavenderTown_Object:
 	warp_to 10,  0, LAVENDER_TOWN_WIDTH ; dummy warp
 	warp_to 11,  0, LAVENDER_TOWN_WIDTH ; dummy warp
 	warp_to 12,  0, LAVENDER_TOWN_WIDTH ; dummy warp
-	warp_to 13,  0, LAVENDER_TOWN_WIDTH ; dummy warp	
-	warp_to  1,  3, LAVENDER_TOWN_WIDTH ; WARP_ROOM
+	warp_to 13,  0, LAVENDER_TOWN_WIDTH ; dummy warp
+	warp_to  1,  5, LAVENDER_TOWN_WIDTH ; WARP_ROOM
