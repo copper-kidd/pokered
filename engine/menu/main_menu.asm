@@ -129,6 +129,11 @@ InitOptions:
 	ld [wLetterPrintingDelayFlags], a
 	ld a, 1 ; fast speed
 	ld [wOptions], a
+	set 7, d ; Turn off Battle Animations by default
+	ld a, [wOptionsBattleStyleCursorX] ; battle style cursor X coordinate
+	dec a	
+	ld a, d
+	ld [wOptions], a
 	ret
 
 LinkMenu:
