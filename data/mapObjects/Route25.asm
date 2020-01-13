@@ -17,8 +17,8 @@ Route25_Object:
 	warp 11,  0,  0, WARP_ROOM ; dummy warp 12
 	warp 12,  0,  0, WARP_ROOM ; dummy warp 13
 	warp 13,  0,  0, WARP_ROOM ; dummy warp 14
-	warp 14,  0,  0, WARP_ROOM ; dummy warp 15	
-	warp 37,  9,  5, WARP_ROOM ; Warps to Bill's House warp plate in Warp Room	
+	warp 14,  0,  0, WARP_ROOM ; dummy warp 15
+	warp 55,  3,  5, WARP_ROOM ; Warps to Bill's House warp plate in Warp Room	
 
 	db 1 ; signs
 	sign 43, 3, 11 ; Route25Text11
@@ -52,5 +52,5 @@ Route25_Object:
 	warp_to 12,  0, ROUTE_25_WIDTH ; dummy warp 13
 	warp_to 13,  0, ROUTE_25_WIDTH ; dummy warp	14
 	warp_to 14,  0, ROUTE_25_WIDTH ; dummy warp	15
-	warp_to 37,  9, ROUTE_25_WIDTH ; WARP_ROOM
+	warp_to 55,  3, ROUTE_25_WIDTH ; WARP_ROOM
 	
