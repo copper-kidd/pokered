@@ -18,28 +18,20 @@ WarpRoom_Object:
 	warp  9,  8, 16, CINNABAR_ISLAND ; Cinnabar Island Warp Room
 	warp  1,  4, 16, ROUTE_22 ; Pokemon League Warp Room
 	warp  9,  4, 16, ROUTE_23 ; Victory Road Warp Room
-	warp  5,  0, 16, INDIGO_PLATEAU ; Indigo Plateau Warp Room
+	warp  9,  0, 16, INDIGO_PLATEAU ; Indigo Plateau Warp Room
 
-	db 16 ; signs
-	sign  3, 32, 1 ; WarpRoomText1 Pallet Town Warp Room sign
-	sign  6, 32, 2 ; WarpRoomText2 Viridian City Warp Room sign
-	sign  3, 28, 3 ; WarpRoomText3 Pewter City Warp Room sign
-	sign  6, 28, 4 ; WarpRoomText4 Mt. Moon sign
-	sign  3, 24, 5 ; WarpRoomText5 Cerulean City Warp Room sign
-	sign  6, 24, 6 ; WarpRoomText6 Bill's House Warp Room sign
-	sign  3, 20, 7 ; WarpRoomText7 Vermilion City Warp Room sign
-	sign  6, 20, 8 ; WarpRoomText8 Lavender Town Warp Room sign
-	sign  3, 16, 9 ; WarpRoomText9 Celadon City Warp Room sign
-	sign  6, 16, 10 ; WarpRoomText10 Saffron City Warp Room sign
-	sign  3, 12, 11 ; WarpRoomText11 Fuchsia City Warp Room sign
-	sign  6, 12, 12 ; WarpRoomText12 Power Plant Warp Room sign
-	sign  3,  8, 13 ; WarpRoomText13 Seafoam Islands Warp Room sign
-	sign  6,  8, 14 ; WarpRoomText14 Cinnabar Island Warp Room sign
-	sign  3,  4, 15 ; WarpRoomText15 Pokemon League Warp Room sign
-	sign  6,  4, 16 ; WarpRoomText16 Victory Road Warp Room sign
-;	sign  3,  0, 17 ; WarpRoomText17 Indigo Plateau Warp Room sign
+	db 8 ; signs
+	sign  5, 32, 2 ; WarpRoomText1 Pallet Town/Viridian City sign
+	sign  5, 28, 3 ; WarpRoomText2 Pewter City/Mt. Moon sign
+	sign  5, 24, 4 ; WarpRoomText3 Cerulean City/Bill's House sign
+	sign  5, 20, 5 ; WarpRoomText4 Vermilion City/Lavender Town sign
+	sign  5, 16, 6 ; WarpRoomText5 Celadon City/Saffron City sign
+	sign  5, 12, 7 ; WarpRoomText6 Fuchsia City/Power Plant sign
+	sign  5,  8, 8 ; WarpRoomText7 Seafoam Islands/Cinnabar Island sign
+	sign  5,  4, 9 ; WarpRoomText8 Pokemon League/Victory Road sign
 
-	db 0 ; objects
+	db 1 ; objects
+	object SPRITE_BUG_CATCHER,  9, 37, STAY, DOWN, 1
 	
 	; warp-to
 	warp_to  1, 32, WARP_ROOM_WIDTH ; PALLET_TOWN
@@ -58,4 +50,4 @@ WarpRoom_Object:
 	warp_to  9,  8, WARP_ROOM_WIDTH ; CINNABAR_ISLAND
 	warp_to  1,  4, WARP_ROOM_WIDTH ; ROUTE_22 Pokemon League
 	warp_to  9,  4, WARP_ROOM_WIDTH ; ROUTE_23 Victory Road
-	warp_to  5,  0, WARP_ROOM_WIDTH ; INDIGO_PLATEAU
+	warp_to  9,  0, WARP_ROOM_WIDTH ; INDIGO_PLATEAU

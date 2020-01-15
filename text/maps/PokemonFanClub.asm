@@ -111,13 +111,11 @@ FanClubNoStoryText::
 	done
 
 FanClubChairFinalText::
-	text "Hello, <PLAYER>!"
+	text "Hi, <PLAYER>!"
+	line "What's that now?"
 
-	para "Did you come see"
-	line "me about my"
-	cont "#MON again?"
-
-	para "No? Too bad!"
+	para "COPPER gave you"
+	line "his bike? Sweet!"	
 	done
 
 FanClubBagFullText::

@@ -1,67 +1,52 @@
+_CopperHealText1::
+	text "COPPER: <PLAYER>!"
+	line "Why don't you rest"
+	cont "up on this comfy"
+	cont "couch real quick?"	
+	prompt
+
+_CopperHealText2::
+	text "COPPER: There!"
+	line "Feel better? :)"
+	cont "Have fun warpin'!"
+	done
+	
 _WarpRoomText1::
-	text "Pallet Town"
+	text "Pallet Town       "
+	line "     Viridian City"
 	done
 	
 _WarpRoomText2::
-	text "Viridian City"
+	text "Pewter City       "
+	line "          Mt. Moon"
 	done
-
+	
 _WarpRoomText3::
-	text "Pewter City"
+	text "Cerulean City     "
+	line "       Bill's House"	
 	done
 
 _WarpRoomText4::
-	text "Mt. Moon"
+	text "Vermilion City    "
+	line "     Lavender Town"
 	done
 
 _WarpRoomText5::
-	text "Cerulean City"
+	text "Celadon City      "
+	line "      Saffron City"	
 	done
 
 _WarpRoomText6::
-	text "Bill's House"
+	text "Fuchsia City      "
+	line "       Power Plant"
 	done
-
+	
 _WarpRoomText7::
-	text "Vermilion City"
+	text "Seafoam Island    "
+	line "   Cinnabar Island"	
 	done
-
+		
 _WarpRoomText8::
-	text "Lavender Town"
+	text "#MON League    "
+	line "      Victory Road"
 	done
-
-_WarpRoomText9::
-	text "Celadon City"
-	done
-
-_WarpRoomText10::
-	text "Saffron City"
-	done
-
-_WarpRoomText11::
-	text "Fuchsia City"
-	done
-
-_WarpRoomText12::
-	text "Power Plant"
-	done
-	
-_WarpRoomText13::
-	text "Seafoam Island"
-	done
-	
-_WarpRoomText14::
-	text "Cinnabar Island"
-	done
-	
-_WarpRoomText15::
-	text "#MON League"
-	done
-	
-_WarpRoomText16::
-	text "Victory Road"
-	done
-
-;_WarpRoomText17::
-;	text "Indigo Plateau"
-;	done

@@ -2,6 +2,7 @@ WarpRoom_Script:
 	jp EnableAutoTextBoxDrawing
 	
 WarpRoom_TextPointers:
+	dw WarpHouseHeal
 	dw WarpRoomText1
 	dw WarpRoomText2
 	dw WarpRoomText3
@@ -10,15 +11,44 @@ WarpRoom_TextPointers:
 	dw WarpRoomText6
 	dw WarpRoomText7
 	dw WarpRoomText8
-	dw WarpRoomText9
-	dw WarpRoomText10
-	dw WarpRoomText11
-	dw WarpRoomText12
-	dw WarpRoomText13	
-	dw WarpRoomText14
-	dw WarpRoomText15
-	dw WarpRoomText16
-;	dw WarpRoomText17	
+
+WarpHouseHeal:
+	TX_ASM
+	ld a, [wd72e]
+	bit 3, a
+	jr nz, .heal
+	jr .done
+.heal
+	call CopperHealPokemon
+.done
+	jp TextScriptEnd
+
+CopperHealPokemon:
+	ld hl, CopperHealText1
+	call PrintText
+	call GBFadeOutToWhite
+	call ReloadMapData
+	predef HealParty
+	ld a, MUSIC_PKMN_HEALED
+	ld [wNewSoundID], a
+	call PlaySound
+.next
+	ld a, [wChannelSoundIDs]
+	cp MUSIC_PKMN_HEALED
+	jr z, .next
+	ld a, [wMapMusicSoundID]
+	ld [wNewSoundID], a
+	call PlaySound
+	call GBFadeInFromWhite
+	ld hl, CopperHealText2
+	jp PrintText
+
+CopperHealText1:
+	TX_FAR _CopperHealText1
+	db "@"
+CopperHealText2:
+	TX_FAR _CopperHealText2
+	db "@"
 	
 WarpRoomText1:
 	TX_FAR _WarpRoomText1
@@ -51,39 +81,3 @@ WarpRoomText7:
 WarpRoomText8:
 	TX_FAR _WarpRoomText8
 	db "@"
-
-WarpRoomText9:
-	TX_FAR _WarpRoomText9
-	db "@"
-
-WarpRoomText10:
-	TX_FAR _WarpRoomText10
-	db "@"
-
-WarpRoomText11:
-	TX_FAR _WarpRoomText11
-	db "@"
-
-WarpRoomText12:
-	TX_FAR _WarpRoomText12
-	db "@"
-	
-WarpRoomText13:
-	TX_FAR _WarpRoomText13
-	db "@"
-	
-WarpRoomText14:
-	TX_FAR _WarpRoomText14
-	db "@"
-
-WarpRoomText15:
-	TX_FAR _WarpRoomText15
-	db "@"
-
-WarpRoomText16:
-	TX_FAR _WarpRoomText16
-	db "@"	
-
-;WarpRoomText17:
-;	TX_FAR _WarpRoomText17
-;	db "@"
