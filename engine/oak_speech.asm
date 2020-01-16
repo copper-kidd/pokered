@@ -54,15 +54,15 @@ OakSpeech:
     ld a, 1
     ld [wItemQuantity], a
     call AddItemToInventory ; give one Nugget (PC)
+	lb bc, BICYCLE, 1
+	call GiveItem ; start with bicycle
+	SetEvent EVENT_GOT_BICYCLE	
 	ld hl, wNumBagItems
     ld a, MASTER_BALL
     ld [wcf91], a
     ld a, 1
     ld [wItemQuantity], a
     call AddItemToInventory ; give one Master Ball (Inventory)
-	lb bc, BICYCLE, 1
-	call GiveItem
-	SetEvent EVENT_GOT_BICYCLE	
 	ld a, [wDefaultMap]
 	ld [wDestinationMap], a
 	call SpecialWarpIn
