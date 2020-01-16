@@ -17,8 +17,8 @@ FuchsiaCity_Object:
 	warp  3,  0,  0, WARP_ROOM ; dummy warp
 	warp  4,  0,  0, WARP_ROOM ; dummy warp
 	warp  5,  0,  0, WARP_ROOM ; dummy warp
-	warp  6,  0,  0, WARP_ROOM ; dummy warp	
-	warp 17, 17, 10, WARP_ROOM ; Warps to Fuchsia City warp plate in Warp Room
+	warp  6,  0,  0, WARP_ROOM ; dummy warp
+	warp 17, 19, 10, WARP_ROOM ; Warps to Fuchsia City warp plate in Warp Room
 
 	db 14 ; signs
 	sign 15, 23, 11 ; FuchsiaCityText11
@@ -33,7 +33,7 @@ FuchsiaCity_Object:
 	sign 27, 7, 20 ; FuchsiaCityText20
 	sign 13, 7, 21 ; FuchsiaCityText21
 	sign 31, 13, 22 ; FuchsiaCityText22
-	sign 13, 15, 23 ; FuchsiaCityText23
+	sign 15, 15, 23 ; FuchsiaCityText23
 	sign 7, 7, 24 ; FuchsiaCityText24
 
 	db 10 ; objects
@@ -64,5 +64,5 @@ FuchsiaCity_Object:
 	warp_to  3,  0, FUCHSIA_CITY_WIDTH ; dummy warp
 	warp_to  4,  0, FUCHSIA_CITY_WIDTH ; dummy warp
 	warp_to  5,  0, FUCHSIA_CITY_WIDTH ; dummy warp
-	warp_to  6,  0, FUCHSIA_CITY_WIDTH ; dummy warp	
-	warp_to 17, 17, FUCHSIA_CITY_WIDTH ; WARP_ROOM
+	warp_to  6,  0, FUCHSIA_CITY_WIDTH ; dummy warp
+	warp_to 17, 19, FUCHSIA_CITY_WIDTH ; WARP_ROOM

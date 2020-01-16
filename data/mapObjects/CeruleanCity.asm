@@ -17,8 +17,8 @@ CeruleanCity_Object:
 	warp  2,  0, 0, WARP_ROOM ; dummy warp
 	warp  3,  0, 0, WARP_ROOM ; dummy warp
 	warp  4,  0, 0, WARP_ROOM ; dummy warp
-	warp  5,  0, 0, WARP_ROOM ; dummy warp	
-	warp  3, 23, 4, WARP_ROOM ; Warps to Cerulean City warp plate in Warp Room
+	warp  5,  0, 0, WARP_ROOM ; dummy warp
+	warp 37, 15, 4, WARP_ROOM ; Warps to Cerulean City warp plate in Warp Room
 	
 	db 6 ; signs
 	sign 23, 19, 12 ; CeruleanCityText12
@@ -57,5 +57,5 @@ CeruleanCity_Object:
 	warp_to  2,  0, CERULEAN_CITY_WIDTH ; dummy warp
 	warp_to  3,  0, CERULEAN_CITY_WIDTH ; dummy warp
 	warp_to  4,  0, CERULEAN_CITY_WIDTH ; dummy warp
-	warp_to  5,  0, CERULEAN_CITY_WIDTH ; dummy warp	
-	warp_to  3, 23, CERULEAN_CITY_WIDTH ; WARP_ROOM
+	warp_to  5,  0, CERULEAN_CITY_WIDTH ; dummy warp
+	warp_to 37, 15, CERULEAN_CITY_WIDTH ; WARP_ROOM

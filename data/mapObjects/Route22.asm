@@ -17,11 +17,11 @@ Route22_Object:
 	warp  11,  0,  0, WARP_ROOM ; dummy warp
 	warp  12,  0,  0, WARP_ROOM ; dummy warp
 	warp  13,  0,  0, WARP_ROOM ; dummy warp
-	warp  14,  0,  0, WARP_ROOM ; dummy warp	
-	warp  13, 11, 14, WARP_ROOM ; Warps to Victory Road warp plate in Warp Room
+	warp  14,  0,  0, WARP_ROOM ; dummy warp
+	warp 13,  9, 14, WARP_ROOM ; Warps to Victory Road warp plate in Warp Room
 
 	db 1 ; signs
-	sign  9, 11, 3 ; Route22FrontGateText
+	sign  7,  9, 3 ; Route22FrontGateText
 
 	db 2 ; objects
 	object SPRITE_BLUE, 25, 5, STAY, NONE, 1 ; person
@@ -43,5 +43,5 @@ Route22_Object:
 	warp_to 11,  0, ROUTE_22_WIDTH ; dummy warp
 	warp_to 12,  0, ROUTE_22_WIDTH ; dummy warp
 	warp_to 13,  0, ROUTE_22_WIDTH ; dummy warp
-	warp_to 14,  0, ROUTE_22_WIDTH ; dummy warp	
-	warp_to 13, 11, ROUTE_22_WIDTH ; WARP_ROOM
+	warp_to 14,  0, ROUTE_22_WIDTH ; dummy warp
+	warp_to 13,  9, ROUTE_22_WIDTH ; WARP_ROOM
