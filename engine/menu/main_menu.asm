@@ -126,10 +126,10 @@ MainMenu:
 
 InitOptions:
 	ld a, 1 ; no delay
-	ld [wLetterPrintingDelayFlags], a
-	ld a, 1 ; fast speed
-	ld [wOptions], a
-	ret
+    ld [wLetterPrintingDelayFlags], a
+    set 7, a ; 'a' was already 1, but we also want wOptions to have bit 7 set, too
+    ld [wOptions], a  
+    ret
 
 LinkMenu:
 	xor a
