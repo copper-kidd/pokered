@@ -10,15 +10,15 @@ SaffronCity_Object:
 	warp 18, 21, 0, SILPH_CO_1F
 	warp  9, 29, 0, SAFFRON_POKECENTER
 	warp 29, 29, 0, MR_PSYCHICS_HOUSE
-	warp  0,  1, 0, WARP_ROOM ; dummy warp
-	warp  1,  1, 0, WARP_ROOM ; dummy warp
-	warp  2,  1, 0, WARP_ROOM ; dummy warp
-	warp  3,  1, 0, WARP_ROOM ; dummy warp
-	warp  4,  1, 0, WARP_ROOM ; dummy warp
-	warp  5,  1, 0, WARP_ROOM ; dummy warp
-	warp  6,  1, 0, WARP_ROOM ; dummy warp
-	warp  7,  1, 0, WARP_ROOM ; dummy warp	
-	warp 15,  5, 9, WARP_ROOM ; Warps to Saffron City warp plate in Warp Room
+	warp  0,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  1,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  2,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  3,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  4,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  5,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  6,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  7,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp	
+	warp 15,  5, 0, WARP_ROOM_ELEVATOR
 
 	db 10 ; signs
 	sign 19,  5, 16 ; SaffronCityText16

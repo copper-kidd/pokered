@@ -8,17 +8,17 @@ LavenderTown_Object:
 	warp 15, 13, 0, LAVENDER_MART
 	warp  3, 13, 0, LAVENDER_CUBONE_HOUSE
 	warp  7, 13, 0, NAME_RATERS_HOUSE
-	warp  0,  0, 0, WARP_ROOM ; dummy warp
-	warp  1,  0, 0, WARP_ROOM ; dummy warp
-	warp  2,  0, 0, WARP_ROOM ; dummy warp
-	warp  3,  0, 0, WARP_ROOM ; dummy warp
-	warp  4,  0, 0, WARP_ROOM ; dummy warp
-	warp  5,  0, 0, WARP_ROOM ; dummy warp
-	warp 10,  0, 0, WARP_ROOM ; dummy warp
-	warp 11,  0, 0, WARP_ROOM ; dummy warp
-	warp 12,  0, 0, WARP_ROOM ; dummy warp
-	warp 13,  0, 0, WARP_ROOM ; dummy warp
-	warp  1,  5, 7, WARP_ROOM ; Warps to Lavender Town warp plate in Warp Room
+	warp  0,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  1,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  2,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  3,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  4,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  5,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp 10,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp 11,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp 12,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp 13,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  1,  5, 0, WARP_ROOM_ELEVATOR
 	
 	db 6 ; signs
 	sign  9,  3, 4 ; LavenderTownText4

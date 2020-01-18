@@ -2,23 +2,23 @@ Route20_Object:
 	db $43 ; border block
 
 	db 17 ; warps
-	warp 48,  5,  0, SEAFOAM_ISLANDS_1F
-	warp 58,  9,  2, SEAFOAM_ISLANDS_1F
-	warp  0,  1,  0, WARP_ROOM ; dummy warp
-	warp  1,  1,  0, WARP_ROOM ; dummy warp
-	warp  2,  1,  0, WARP_ROOM ; dummy warp
-	warp  3,  1,  0, WARP_ROOM ; dummy warp
-	warp  4,  1,  0, WARP_ROOM ; dummy warp
-	warp  5,  1,  0, WARP_ROOM ; dummy warp
-	warp  6,  1,  0, WARP_ROOM ; dummy warp
-	warp  7,  1,  0, WARP_ROOM ; dummy warp
-	warp  8,  1,  0, WARP_ROOM ; dummy warp
-	warp  9,  1,  0, WARP_ROOM ; dummy warp
-	warp 10,  1,  0, WARP_ROOM ; dummy warp
-	warp 11,  1,  0, WARP_ROOM ; dummy warp
-	warp 12,  1,  0, WARP_ROOM ; dummy warp
-	warp 13,  1,  0, WARP_ROOM ; dummy warp	
-	warp 61,  3, 12, WARP_ROOM ; Warps to Seaform Islands warp plate in Warp Room
+	warp 48,  5, 0, SEAFOAM_ISLANDS_1F
+	warp 58,  9, 2, SEAFOAM_ISLANDS_1F
+	warp  0,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  1,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  2,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  3,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  4,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  5,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  6,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  7,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  8,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  9,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp 10,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp 11,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp 12,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp 13,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp	
+	warp 61,  3, 0, WARP_ROOM_ELEVATOR
 	
 	db 2 ; signs
 	sign 51, 7, 11 ; Route20Text11

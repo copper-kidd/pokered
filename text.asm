@@ -1562,7 +1562,28 @@ _WhichFloorText::
 	text "Which floor do"
 	line "you want? "
 	done
+	
+_WhichWarpText1::
+	text "Warp Console 1"
+	line "Choose warp point:"
+	done
+	
+_WhichWarpText2::
+	text "Warp Console 2"
+	line "Choose warp point:"
+	done
 
+_CopperkiddHealText1::
+	text "COPPERKIDD: Let"
+	line "me heal you and"
+	cont "your #MON!"
+	prompt
+
+_CopperkiddHealText2::
+	text "COPPERKIDD: Done!"
+	line "Have fun warping!"
+	prompt
+	
 _PartyMenuNormalText::
 	text "Choose a #MON."
 	done

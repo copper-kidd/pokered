@@ -84,7 +84,8 @@ HiddenObjectMaps:
 	db VERMILION_CITY
 	db CERULEAN_CITY
 	db ROUTE_4
-	db WARP_ROOM	
+	db WARP_ROOM
+	db WARP_ROOM_ELEVATOR	
 	db $FF
 
 HiddenObjectPointers:
@@ -175,6 +176,7 @@ HiddenObjectPointers:
 	dw CeruleanCityHiddenObjects
 	dw Route4HiddenObjects
 	dw WarpRoomHiddenObjects
+	dw WarpRoomElevatorHiddenObjects	
 
 ; format: y-coord, x-coord, text id/item id, object routine
 TradeCenterHiddenObjects:
@@ -855,6 +857,11 @@ Route4HiddenObjects:
 	db $FF
 WarpRoomHiddenObjects:
 	db $24,$01,$04
+	db BANK(OpenPokemonCenterPC)
+	dw OpenPokemonCenterPC
+	db $FF
+WarpRoomElevatorHiddenObjects:
+	db $00,$00,$04
 	db BANK(OpenPokemonCenterPC)
 	dw OpenPokemonCenterPC
 	db $FF

@@ -9,16 +9,16 @@ PewterCity_Object:
 	warp 23, 17, 0, PEWTER_MART
 	warp  7, 29, 0, PEWTER_SPEECH_HOUSE
 	warp 13, 25, 0, PEWTER_POKECENTER
-	warp  4,  1, 0, WARP_ROOM ; dummy warp
-	warp  5,  1, 0, WARP_ROOM ; dummy warp
-	warp  6,  1, 0, WARP_ROOM ; dummy warp
-	warp  7,  1, 0, WARP_ROOM ; dummy warp
-	warp  8,  1, 0, WARP_ROOM ; dummy warp
-	warp  9,  1, 0, WARP_ROOM ; dummy warp
-	warp 10,  1, 0, WARP_ROOM ; dummy warp
-	warp 11,  1, 0, WARP_ROOM ; dummy warp
-	warp 12,  1, 0, WARP_ROOM ; dummy warp	
-	warp 35,  5, 2, WARP_ROOM ; Warps to Pewter City warp plate in Warp Room
+	warp  4,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  5,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  6,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  7,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  8,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  9,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp 10,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp 11,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp 12,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp	
+	warp 35,  5, 0, WARP_ROOM_ELEVATOR
 
 	db 7 ; signs
 	sign 19, 29, 6 ; PewterCityText6

@@ -6,19 +6,19 @@ Route23_Object:
 	warp   8, 139, 3, ROUTE_22_GATE
 	warp   4,  31, 0, VICTORY_ROAD_1F
 	warp  14,  31, 1, VICTORY_ROAD_2F
-	warp   0,  0,  0, WARP_ROOM ; dummy warp
-	warp   1,  0,  0, WARP_ROOM ; dummy warp
-	warp   2,  0,  0, WARP_ROOM ; dummy warp
-	warp   3,  0,  0, WARP_ROOM ; dummy warp
-	warp   4,  0,  0, WARP_ROOM ; dummy warp
-	warp   5,  0,  0, WARP_ROOM ; dummy warp
-	warp   6,  0,  0, WARP_ROOM ; dummy warp
-	warp   7,  0,  0, WARP_ROOM ; dummy warp
-	warp   8,  0,  0, WARP_ROOM ; dummy warp
-	warp   9,  0,  0, WARP_ROOM ; dummy warp
-	warp  10,  0,  0, WARP_ROOM ; dummy warp
-	warp  11,  0,  0, WARP_ROOM ; dummy warp
-	warp   7, 31, 15, WARP_ROOM ; Warps to Victory Road warp plate in Warp Room
+	warp   0,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp   1,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp   2,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp   3,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp   4,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp   5,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp   6,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp   7,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp   8,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp   9,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  10,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  11,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp   7, 31,  0, WARP_ROOM_ELEVATOR
 
 	db 1 ; signs
 	sign 3, 33, 8 ; Route23Text8

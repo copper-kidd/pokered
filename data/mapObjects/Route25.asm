@@ -3,22 +3,22 @@ Route25_Object:
 
 	db 17 ; warps
 	warp 45,  3,  0, BILLS_HOUSE
-	warp  0,  0,  0, WARP_ROOM ; dummy warp 1
-	warp  1,  0,  0, WARP_ROOM ; dummy warp 2
-	warp  2,  0,  0, WARP_ROOM ; dummy warp 3
-	warp  3,  0,  0, WARP_ROOM ; dummy warp 4
-	warp  4,  0,  0, WARP_ROOM ; dummy warp 5
-	warp  5,  0,  0, WARP_ROOM ; dummy warp 6
-	warp  6,  0,  0, WARP_ROOM ; dummy warp 7
-	warp  7,  0,  0, WARP_ROOM ; dummy warp 8
-	warp  8,  0,  0, WARP_ROOM ; dummy warp 9
-	warp  9,  0,  0, WARP_ROOM ; dummy warp 10
-	warp 10,  0,  0, WARP_ROOM ; dummy warp 11
-	warp 11,  0,  0, WARP_ROOM ; dummy warp 12
-	warp 12,  0,  0, WARP_ROOM ; dummy warp 13
-	warp 13,  0,  0, WARP_ROOM ; dummy warp 14
-	warp 14,  0,  0, WARP_ROOM ; dummy warp 15
-	warp 55,  3,  5, WARP_ROOM ; Warps to Bill's House warp plate in Warp Room	
+	warp  0,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 1
+	warp  1,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 2
+	warp  2,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 3
+	warp  3,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 4
+	warp  4,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 5
+	warp  5,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 6
+	warp  6,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 7
+	warp  7,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 8
+	warp  8,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 9
+	warp  9,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 10
+	warp 10,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 11
+	warp 11,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 12
+	warp 12,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 13
+	warp 13,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 14
+	warp 14,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp 15
+	warp 55,  3,  0, WARP_ROOM_ELEVATOR
 
 	db 1 ; signs
 	sign 43, 3, 11 ; Route25Text11

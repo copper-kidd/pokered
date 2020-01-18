@@ -522,6 +522,11 @@ INCLUDE "scripts/WarpRoom.asm"
 INCLUDE "data/mapObjects/WarpRoom.asm"
 WarpRoom_Blocks: INCBIN "maps/WarpRoom.blk"
 
+INCLUDE "data/mapHeaders/WarpRoomElevator.asm"
+INCLUDE "scripts/WarpRoomElevator.asm"
+INCLUDE "data/mapObjects/WarpRoomElevator.asm"
+WarpRoomElevator_Blocks: INCBIN "maps/WarpRoomElevator.blk"
+
 INCLUDE "engine/menu/oaks_pc.asm"
 
 INCLUDE "engine/hidden_object_functions7.asm"

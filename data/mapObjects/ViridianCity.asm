@@ -7,18 +7,18 @@ ViridianCity_Object:
 	warp 21, 15, 0, VIRIDIAN_SCHOOL_HOUSE
 	warp 21,  9, 0, VIRIDIAN_NICKNAME_HOUSE
 	warp 32,  7, 0, VIRIDIAN_GYM
-	warp  0,  0, 0, WARP_ROOM ; dummy warp
-	warp  1,  0, 0, WARP_ROOM ; dummy warp
-	warp  2,  0, 0, WARP_ROOM ; dummy warp
-	warp  3,  0, 0, WARP_ROOM ; dummy warp
-	warp  4,  0, 0, WARP_ROOM ; dummy warp
-	warp  5,  0, 0, WARP_ROOM ; dummy warp
-	warp  6,  0, 0, WARP_ROOM ; dummy warp
-	warp  7,  0, 0, WARP_ROOM ; dummy warp
-	warp  8,  0, 0, WARP_ROOM ; dummy warp
-	warp  9,  0, 0, WARP_ROOM ; dummy warp
-	warp 10,  0, 0, WARP_ROOM ; dummy warp	
-	warp 35, 25, 1, WARP_ROOM ; Warps to Viridian City warp plate in Warp Room
+	warp  0,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  1,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  2,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  3,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  4,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  5,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  6,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  7,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  8,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  9,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp 10,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp	
+	warp 35, 25, 0, WARP_ROOM_ELEVATOR
 
 	db 6 ; signs
 	sign 17, 17, 8 ; ViridianCityText8

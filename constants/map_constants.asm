@@ -253,4 +253,5 @@ ENDM
 	mapconst LORELEIS_ROOM,                  6,  5 ; $F5
 	mapconst BRUNOS_ROOM,                    6,  5 ; $F6
 	mapconst AGATHAS_ROOM,                   6,  5 ; $F7
-	mapconst WARP_ROOM,                      20, 5 ; $F8	
+	mapconst WARP_ROOM,                      20, 5 ; $F8
+	mapconst WARP_ROOM_ELEVATOR,              3, 5 ; $F9

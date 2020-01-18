@@ -2,23 +2,23 @@ CinnabarIsland_Object:
 	db $43 ; border block
 
 	db 17 ; warps
-	warp  6,  3,  1, POKEMON_MANSION_1F
-	warp 18,  3,  0, CINNABAR_GYM
-	warp  6,  9,  0, CINNABAR_LAB
-	warp 11, 11,  0, CINNABAR_POKECENTER
-	warp 15, 11,  0, CINNABAR_MART
-	warp  0,  0,  0, WARP_ROOM ; dummy warp
-	warp  0,  1,  0, WARP_ROOM ; dummy warp
-	warp  0,  2,  0, WARP_ROOM ; dummy warp
-	warp  0,  3,  0, WARP_ROOM ; dummy warp
-	warp  0,  4,  0, WARP_ROOM ; dummy warp
-	warp  0,  5,  0, WARP_ROOM ; dummy warp
-	warp  0,  6,  0, WARP_ROOM ; dummy warp
-	warp  0,  7,  0, WARP_ROOM ; dummy warp
-	warp  0,  8,  0, WARP_ROOM ; dummy warp
-	warp  0,  9,  0, WARP_ROOM ; dummy warp
-	warp  0, 10,  0, WARP_ROOM ; dummy warp	
-	warp  9, 11, 13, WARP_ROOM ; Warps to Cinnibar Island warp plate in Warp Room
+	warp  6,  3, 1, POKEMON_MANSION_1F
+	warp 18,  3, 0, CINNABAR_GYM
+	warp  6,  9, 0, CINNABAR_LAB
+	warp 11, 11, 0, CINNABAR_POKECENTER
+	warp 15, 11, 0, CINNABAR_MART
+	warp  0,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  0,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  0,  2, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  0,  3, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  0,  4, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  0,  5, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  0,  6, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  0,  7, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  0,  8, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  0,  9, 0, WARP_ROOM_ELEVATOR ; dummy warp
+	warp  0, 10, 0, WARP_ROOM_ELEVATOR ; dummy warp	
+	warp  9, 11, 0, WARP_ROOM_ELEVATOR
 	
 	db 5 ; signs
 	sign 9, 5, 3 ; CinnabarIslandText3
