@@ -36,7 +36,7 @@ _PalletTownText3::
 	done
 
 _WarpRoomGuardText::
-	text "COPPERKIDD: Halt!"
+	text "COPPERKIDD: Stop!"
 	line "You need to have"
 	cont "a #MON first!"
 	done
