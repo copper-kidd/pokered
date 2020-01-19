@@ -247,7 +247,6 @@ WildDataPointers:
 	dw NoMons
 	dw NoMons
 	dw NoMons
-	dw NoMons ; Warp Room
 	dw NoMons ; Warp Room Elevator	
 	dw $FFFF
 

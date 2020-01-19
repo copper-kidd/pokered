@@ -64,7 +64,6 @@ ENDM
 	music_const MUSIC_ROUTES3,             Music_Routes3
 	music_const MUSIC_ROUTES4,             Music_Routes4
 	music_const MUSIC_INDIGO_PLATEAU,      Music_IndigoPlateau
-	music_const MUSIC_WARP_ROOM,    	   Music_SSAnne
 	music_const MUSIC_WARP_ROOM_ELEVATOR,  Music_SSAnne	
 
 	; AUDIO_2

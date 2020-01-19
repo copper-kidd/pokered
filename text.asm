@@ -2371,7 +2371,6 @@ INCLUDE "text/maps/ViridianGym.asm"
 INCLUDE "text/maps/Museum1F.asm"
 INCLUDE "text/maps/Museum2F.asm"
 INCLUDE "text/maps/PewterGym.asm"
-INCLUDE "text/maps/WarpRoom.asm"
 
 SECTION "Text 7", ROMX ; BANK $26
 

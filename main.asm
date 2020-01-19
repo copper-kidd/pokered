@@ -517,11 +517,6 @@ INCLUDE "scripts/BillsHouse.asm"
 INCLUDE "data/mapObjects/BillsHouse.asm"
 BillsHouse_Blocks: INCBIN "maps/BillsHouse.blk"
 
-INCLUDE "data/mapHeaders/WarpRoom.asm"
-INCLUDE "scripts/WarpRoom.asm"
-INCLUDE "data/mapObjects/WarpRoom.asm"
-WarpRoom_Blocks: INCBIN "maps/WarpRoom.blk"
-
 INCLUDE "data/mapHeaders/WarpRoomElevator.asm"
 INCLUDE "scripts/WarpRoomElevator.asm"
 INCLUDE "data/mapObjects/WarpRoomElevator.asm"
