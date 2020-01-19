@@ -5,20 +5,20 @@ PalletTown_Object:
 	warp  5,  5, 0, REDS_HOUSE_1F
 	warp 13,  5, 0, BLUES_HOUSE
 	warp 12, 11, 1, OAKS_LAB
-	warp  0,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  1,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  2,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  3,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  4,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  5,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  6,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  7,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  8,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  9,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 12,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 13,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 14,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp	
-	warp  3, 15, 0, WARP_ROOM_ELEVATOR
+	warp  0,  1, 0, WARP_ROOM ; dummy warp
+	warp  1,  1, 0, WARP_ROOM ; dummy warp
+	warp  2,  1, 0, WARP_ROOM ; dummy warp
+	warp  3,  1, 0, WARP_ROOM ; dummy warp
+	warp  4,  1, 0, WARP_ROOM ; dummy warp
+	warp  5,  1, 0, WARP_ROOM ; dummy warp
+	warp  6,  1, 0, WARP_ROOM ; dummy warp
+	warp  7,  1, 0, WARP_ROOM ; dummy warp
+	warp  8,  1, 0, WARP_ROOM ; dummy warp
+	warp  9,  1, 0, WARP_ROOM ; dummy warp
+	warp 12,  1, 0, WARP_ROOM ; dummy warp
+	warp 13,  1, 0, WARP_ROOM ; dummy warp
+	warp 14,  1, 0, WARP_ROOM ; dummy warp	
+	warp  3, 15, 0, WARP_ROOM
 
 	db 4 ; signs
 	sign 13, 13, 5 ; PalletTownText5

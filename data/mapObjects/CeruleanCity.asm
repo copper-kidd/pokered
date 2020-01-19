@@ -12,13 +12,13 @@ CeruleanCity_Object:
 	warp 27,  9, 2, CERULEAN_TRASHED_HOUSE
 	warp  9, 11, 1, CERULEAN_BADGE_HOUSE
 	warp  9,  9, 0, CERULEAN_BADGE_HOUSE
-	warp  0,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  1,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  2,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  3,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  4,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  5,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 37, 15, 0, WARP_ROOM_ELEVATOR
+	warp  0,  0, 0, WARP_ROOM ; dummy warp
+	warp  1,  0, 0, WARP_ROOM ; dummy warp
+	warp  2,  0, 0, WARP_ROOM ; dummy warp
+	warp  3,  0, 0, WARP_ROOM ; dummy warp
+	warp  4,  0, 0, WARP_ROOM ; dummy warp
+	warp  5,  0, 0, WARP_ROOM ; dummy warp
+	warp 37, 15, 0, WARP_ROOM
 	
 	db 6 ; signs
 	sign 23, 19, 12 ; CeruleanCityText12

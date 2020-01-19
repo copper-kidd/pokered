@@ -5,20 +5,20 @@ Route4_Object:
 	warp 11,  5,  0, MT_MOON_POKECENTER
 	warp 18,  5,  0, MT_MOON_1F
 	warp 24,  5,  7, MT_MOON_B1F
-	warp  0,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  1,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  2,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  3,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  4,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  5,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  6,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  7,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  8,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  9,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 10,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 11,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 12,  0,  0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 19, 11,  0, WARP_ROOM_ELEVATOR
+	warp  0,  0,  0, WARP_ROOM ; dummy warp
+	warp  1,  0,  0, WARP_ROOM ; dummy warp
+	warp  2,  0,  0, WARP_ROOM ; dummy warp
+	warp  3,  0,  0, WARP_ROOM ; dummy warp
+	warp  4,  0,  0, WARP_ROOM ; dummy warp
+	warp  5,  0,  0, WARP_ROOM ; dummy warp
+	warp  6,  0,  0, WARP_ROOM ; dummy warp
+	warp  7,  0,  0, WARP_ROOM ; dummy warp
+	warp  8,  0,  0, WARP_ROOM ; dummy warp
+	warp  9,  0,  0, WARP_ROOM ; dummy warp
+	warp 10,  0,  0, WARP_ROOM ; dummy warp
+	warp 11,  0,  0, WARP_ROOM ; dummy warp
+	warp 12,  0,  0, WARP_ROOM ; dummy warp
+	warp 19, 11,  0, WARP_ROOM
 	
 
 	db 3 ; signs

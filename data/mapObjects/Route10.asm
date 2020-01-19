@@ -6,19 +6,19 @@ Route10_Object:
 	warp  8, 17, 0, ROCK_TUNNEL_1F
 	warp  8, 53, 2, ROCK_TUNNEL_1F
 	warp  6, 39, 0, POWER_PLANT
-	warp  0,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  1,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  2,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  3,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  4,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  5,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  6,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  7,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  8,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  9,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 10,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 11,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp	
-	warp  9, 43, 0, WARP_ROOM_ELEVATOR
+	warp  0,  0, 0, WARP_ROOM ; dummy warp
+	warp  1,  0, 0, WARP_ROOM ; dummy warp
+	warp  2,  0, 0, WARP_ROOM ; dummy warp
+	warp  3,  0, 0, WARP_ROOM ; dummy warp
+	warp  4,  0, 0, WARP_ROOM ; dummy warp
+	warp  5,  0, 0, WARP_ROOM ; dummy warp
+	warp  6,  0, 0, WARP_ROOM ; dummy warp
+	warp  7,  0, 0, WARP_ROOM ; dummy warp
+	warp  8,  0, 0, WARP_ROOM ; dummy warp
+	warp  9,  0, 0, WARP_ROOM ; dummy warp
+	warp 10,  0, 0, WARP_ROOM ; dummy warp
+	warp 11,  0, 0, WARP_ROOM ; dummy warp	
+	warp  9, 43, 0, WARP_ROOM
 	
 
 	db 4 ; signs

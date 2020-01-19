@@ -4,21 +4,21 @@ IndigoPlateau_Object:
 	db 17 ; warps
 	warp  9,  5, 0, INDIGO_PLATEAU_LOBBY
 	warp 10,  5, 0, INDIGO_PLATEAU_LOBBY
-	warp  0,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  1,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  2,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  3,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  4,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  5,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  6,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  7,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  8,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  9,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  10, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  11, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  12, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  13, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp	
-	warp  17, 3, 0, WARP_ROOM_ELEVATOR
+	warp  0,  0, 0, WARP_ROOM ; dummy warp
+	warp  1,  0, 0, WARP_ROOM ; dummy warp
+	warp  2,  0, 0, WARP_ROOM ; dummy warp
+	warp  3,  0, 0, WARP_ROOM ; dummy warp
+	warp  4,  0, 0, WARP_ROOM ; dummy warp
+	warp  5,  0, 0, WARP_ROOM ; dummy warp
+	warp  6,  0, 0, WARP_ROOM ; dummy warp
+	warp  7,  0, 0, WARP_ROOM ; dummy warp
+	warp  8,  0, 0, WARP_ROOM ; dummy warp
+	warp  9,  0, 0, WARP_ROOM ; dummy warp
+	warp  10, 0, 0, WARP_ROOM ; dummy warp
+	warp  11, 0, 0, WARP_ROOM ; dummy warp
+	warp  12, 0, 0, WARP_ROOM ; dummy warp
+	warp  13, 0, 0, WARP_ROOM ; dummy warp	
+	warp  17, 3, 0, WARP_ROOM
 
 	db 0 ; signs
 	

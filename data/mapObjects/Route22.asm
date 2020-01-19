@@ -3,22 +3,22 @@ Route22_Object:
 
 	db 17 ; warps
 	warp   8, 5, 0, ROUTE_22_GATE
-	warp   0, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp   1, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp   2, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp   3, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp   4, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp   5, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp   6, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp   7, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp   8, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp   9, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  10, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  11, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  12, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  13, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  14, 0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  13, 9, 0, WARP_ROOM_ELEVATOR
+	warp   0, 0, 0, WARP_ROOM ; dummy warp
+	warp   1, 0, 0, WARP_ROOM ; dummy warp
+	warp   2, 0, 0, WARP_ROOM ; dummy warp
+	warp   3, 0, 0, WARP_ROOM ; dummy warp
+	warp   4, 0, 0, WARP_ROOM ; dummy warp
+	warp   5, 0, 0, WARP_ROOM ; dummy warp
+	warp   6, 0, 0, WARP_ROOM ; dummy warp
+	warp   7, 0, 0, WARP_ROOM ; dummy warp
+	warp   8, 0, 0, WARP_ROOM ; dummy warp
+	warp   9, 0, 0, WARP_ROOM ; dummy warp
+	warp  10, 0, 0, WARP_ROOM ; dummy warp
+	warp  11, 0, 0, WARP_ROOM ; dummy warp
+	warp  12, 0, 0, WARP_ROOM ; dummy warp
+	warp  13, 0, 0, WARP_ROOM ; dummy warp
+	warp  14, 0, 0, WARP_ROOM ; dummy warp
+	warp  13, 9, 0, WARP_ROOM
 
 	db 1 ; signs
 	sign  7,  9, 3 ; Route22FrontGateText

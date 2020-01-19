@@ -15,10 +15,10 @@ CeladonCity_Object:
 	warp 31, 27, 0, CELADON_DINER
 	warp 35, 27, 0, CELADON_CHIEF_HOUSE
 	warp 43, 27, 0, CELADON_HOTEL
-	warp  0,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  1,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  2,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp	
-	warp 47, 13, 0, WARP_ROOM_ELEVATOR
+	warp  0,  0, 0, WARP_ROOM ; dummy warp
+	warp  1,  0, 0, WARP_ROOM ; dummy warp
+	warp  2,  0, 0, WARP_ROOM ; dummy warp	
+	warp 47, 13, 0, WARP_ROOM
 	
 	db 9 ; signs
 	sign 27, 15, 10 ; CeladonCityText10

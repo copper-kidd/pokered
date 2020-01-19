@@ -7,18 +7,18 @@ CinnabarIsland_Object:
 	warp  6,  9, 0, CINNABAR_LAB
 	warp 11, 11, 0, CINNABAR_POKECENTER
 	warp 15, 11, 0, CINNABAR_MART
-	warp  0,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  0,  1, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  0,  2, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  0,  3, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  0,  4, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  0,  5, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  0,  6, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  0,  7, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  0,  8, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  0,  9, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  0, 10, 0, WARP_ROOM_ELEVATOR ; dummy warp	
-	warp  9, 11, 0, WARP_ROOM_ELEVATOR
+	warp  0,  0, 0, WARP_ROOM ; dummy warp
+	warp  0,  1, 0, WARP_ROOM ; dummy warp
+	warp  0,  2, 0, WARP_ROOM ; dummy warp
+	warp  0,  3, 0, WARP_ROOM ; dummy warp
+	warp  0,  4, 0, WARP_ROOM ; dummy warp
+	warp  0,  5, 0, WARP_ROOM ; dummy warp
+	warp  0,  6, 0, WARP_ROOM ; dummy warp
+	warp  0,  7, 0, WARP_ROOM ; dummy warp
+	warp  0,  8, 0, WARP_ROOM ; dummy warp
+	warp  0,  9, 0, WARP_ROOM ; dummy warp
+	warp  0, 10, 0, WARP_ROOM ; dummy warp	
+	warp  9, 11, 0, WARP_ROOM
 	
 	db 5 ; signs
 	sign 9, 5, 3 ; CinnabarIslandText3

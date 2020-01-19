@@ -1,28 +1,28 @@
-WarpRoomElevator_Script:
+WarpRoom_Script:
 	ld hl, wCurrentMapScriptFlags
 	bit 5, [hl]
 	res 5, [hl]
 	push hl
-	call nz, WarpRoomElevatorScript1
+	call nz, WarpRoomScript1
 	pop hl
 	bit 7, [hl]
 	res 7, [hl]
-	call nz, WarpRoomElevatorScript2
+	call nz, WarpRoomScript2
 	xor a
 	ld [wAutoTextBoxDrawingControl], a
 	inc a
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
 	ret
 
-WarpRoomElevatorScript1:
+WarpRoomScript1:
 	ld hl, wWarpEntries
 	ld a, [wWarpedFromWhichWarp]
 	ld b, a
 	ld a, [wWarpedFromWhichMap]
 	ld c, a
-	call WarpRoomElevatorScript3
+	call WarpRoomScript3
 
-WarpRoomElevatorScript3:
+WarpRoomScript3:
 	inc hl
 	inc hl
 	ld a, b
@@ -31,23 +31,23 @@ WarpRoomElevatorScript3:
 	ld [hli], a
 	ret
 
-WarpRoomElevatorScript4:
-	ld hl, WarpRoomElevatorFloors1
+WarpRoomScript4:
+	ld hl, WarpRoomFloors1
 	call LoadItemList
-	ld hl, WarpRoomElevatorWarpMaps1
+	ld hl, WarpRoomWarpMaps1
 	ld de, wElevatorWarpMaps
-	ld bc, WarpRoomElevatorWarpMaps1End - WarpRoomElevatorWarpMaps1
+	ld bc, WarpRoomWarpMaps1End - WarpRoomWarpMaps1
 	jp CopyData
 
-WarpRoomElevatorScript5:
-	ld hl, WarpRoomElevatorFloors2
+WarpRoomScript5:
+	ld hl, WarpRoomFloors2
 	call LoadItemList
-	ld hl, WarpRoomElevatorWarpMaps2
+	ld hl, WarpRoomWarpMaps2
 	ld de, wElevatorWarpMaps
-	ld bc, WarpRoomElevatorWarpMaps2End - WarpRoomElevatorWarpMaps2
+	ld bc, WarpRoomWarpMaps2End - WarpRoomWarpMaps2
 	jp CopyData	
 
-WarpRoomElevatorFloors1:
+WarpRoomFloors1:
 	db 9 ; number of elements in list
 	db FLOOR_PALLET_TOWN
 	db FLOOR_VIRIDIAN_CITY
@@ -60,7 +60,7 @@ WarpRoomElevatorFloors1:
 	db FLOOR_CELADON_CITY
 	db $FF
 	
-WarpRoomElevatorFloors2:
+WarpRoomFloors2:
 	db 8 ; number of elements in list
 	db FLOOR_SAFFRON_CITY
 	db FLOOR_FUCHSIA_CITY
@@ -72,7 +72,7 @@ WarpRoomElevatorFloors2:
 	db FLOOR_INDIGO_PLATEAU
 	db $FF	
 
-WarpRoomElevatorWarpMaps1:
+WarpRoomWarpMaps1:
 ; first byte is warp number
 ; second byte is map number
 ; These specify where the player goes after getting out of the elevator.
@@ -85,9 +85,9 @@ WarpRoomElevatorWarpMaps1:
 	db $10, VERMILION_CITY
 	db $10, LAVENDER_TOWN
 	db $10, CELADON_CITY
-WarpRoomElevatorWarpMaps1End:
+WarpRoomWarpMaps1End:
 
-WarpRoomElevatorWarpMaps2:
+WarpRoomWarpMaps2:
 ; first byte is warp number
 ; second byte is map number
 ; These specify where the player goes after getting out of the elevator.
@@ -99,15 +99,15 @@ WarpRoomElevatorWarpMaps2:
 	db $10, ROUTE_22
 	db $10, ROUTE_23
 	db $10, INDIGO_PLATEAU
-WarpRoomElevatorWarpMaps2End:
+WarpRoomWarpMaps2End:
 
-WarpRoomElevatorScript2:
+WarpRoomScript2:
 	jpba TeleportFromWarpRoom
 
-WarpRoomElevator_TextPointers:
+WarpRoom_TextPointers:
 	dw WarpRoomHeal
-	dw WarpRoomElevatorText1
-	dw WarpRoomElevatorText2	
+	dw WarpRoomText1
+	dw WarpRoomText2	
 
 WarpRoomHeal:
 	TX_ASM
@@ -147,16 +147,16 @@ CopperkiddHealText2:
 	TX_FAR _CopperkiddHealText2
 	db "@"
 	
-WarpRoomElevatorText1:
+WarpRoomText1:
 	TX_ASM
-	call WarpRoomElevatorScript4
-	ld hl, WarpRoomElevatorWarpMaps1
+	call WarpRoomScript4
+	ld hl, WarpRoomWarpMaps1
 	predef DisplayElevatorFloorMenu2
 	jp TextScriptEnd
 	
-WarpRoomElevatorText2:
+WarpRoomText2:
 	TX_ASM
-	call WarpRoomElevatorScript5
-	ld hl, WarpRoomElevatorWarpMaps2
+	call WarpRoomScript5
+	ld hl, WarpRoomWarpMaps2
 	predef DisplayElevatorFloorMenu3
 	jp TextScriptEnd

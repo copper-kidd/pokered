@@ -11,14 +11,14 @@ FuchsiaCity_Object:
 	warp 22, 13, 0, FUCHSIA_MEETING_ROOM
 	warp 31, 27, 1, FUCHSIA_GOOD_ROD_HOUSE
 	warp 31, 24, 0, FUCHSIA_GOOD_ROD_HOUSE
-	warp  0,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  1,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  2,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  3,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  4,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  5,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  6,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 17, 19, 0, WARP_ROOM_ELEVATOR
+	warp  0,  0, 0, WARP_ROOM ; dummy warp
+	warp  1,  0, 0, WARP_ROOM ; dummy warp
+	warp  2,  0, 0, WARP_ROOM ; dummy warp
+	warp  3,  0, 0, WARP_ROOM ; dummy warp
+	warp  4,  0, 0, WARP_ROOM ; dummy warp
+	warp  5,  0, 0, WARP_ROOM ; dummy warp
+	warp  6,  0, 0, WARP_ROOM ; dummy warp
+	warp 17, 19, 0, WARP_ROOM
 
 	db 14 ; signs
 	sign 15, 23, 11 ; FuchsiaCityText11

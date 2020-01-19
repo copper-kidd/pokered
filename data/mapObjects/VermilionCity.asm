@@ -11,14 +11,14 @@ VermilionCity_Object:
 	warp 19, 31, 0, VERMILION_DOCK
 	warp 15, 13, 0, VERMILION_TRADE_HOUSE
 	warp  7,  3, 0, VERMILION_OLD_ROD_HOUSE
-	warp  6,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  7,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  8,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp  9,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 10,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 11,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp
-	warp 12,  0, 0, WARP_ROOM_ELEVATOR ; dummy warp	
-	warp 33, 13, 0, WARP_ROOM_ELEVATOR
+	warp  6,  0, 0, WARP_ROOM ; dummy warp
+	warp  7,  0, 0, WARP_ROOM ; dummy warp
+	warp  8,  0, 0, WARP_ROOM ; dummy warp
+	warp  9,  0, 0, WARP_ROOM ; dummy warp
+	warp 10,  0, 0, WARP_ROOM ; dummy warp
+	warp 11,  0, 0, WARP_ROOM ; dummy warp
+	warp 12,  0, 0, WARP_ROOM ; dummy warp	
+	warp 33, 13, 0, WARP_ROOM
 	
 	db 7 ; signs
 	sign 27, 3, 7 ; VermilionCityText7
